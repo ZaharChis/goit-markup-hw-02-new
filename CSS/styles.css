@@ -1,0 +1,277 @@
+/* coljrs */
+/* main #212121 */
+/* second #757575 */
+/* back one #F5F5F5 */
+/* back 2 #F5F4FA */
+/* akcent #2196F3 */
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575 ;
+    --accent-color: #2196F3;
+    --backgr-color:#F5F5F5;
+    --backgr-second:#F5F4FA;
+    --hero-text:#FFFFFF;
+    --hero-becgr-color:#2F303A;
+    --foot-links-color:rgba(255, 255, 255, 0.6)
+}
+/* main */
+
+
+ul{
+    list-style-type: none;
+    font-style: none;
+}
+
+.body{
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    letter-spacing:3%;
+    color: var(--primary-text-color);
+    background-color:  var(--backgr-color);
+}
+
+
+/* head */
+.page-header{
+    
+}
+
+.logo{
+    color:var(--accent-color);
+    font-family: Oleo+Script, sans-serif;
+    font-size: 26px;
+    Line height: 1.38;
+}
+.logo:hover,
+.logo:focus
+{
+    color:var(--primary-text-color)}
+
+.logo-part{
+    color:var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-Size:26px;
+    Line-height:1.17;
+    }
+.logo-part:hover,
+.logo-part:focus
+{
+    color:var(--accent-color) 
+}
+
+
+
+
+/* site nav */
+.adress{
+    
+    
+    list-style-type: normal;
+    font-style: normal;
+}
+
+   
+.site-nav a { 
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-Size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;   
+}
+.site-nav a:hover,
+.site-nav a:focus
+{
+    color:var(--accent-color) 
+    
+}
+
+
+
+.auth-nav a{
+   
+    color:var(--secondary-text-color) ;
+    font-weight: 500;
+    font-Size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;  
+}
+.auth-nav a:hover,
+.auth-nav a:focus
+{
+    color: var(--accent-color)
+   
+}
+
+
+
+
+
+/* hero list */
+.hero-title{
+color: var(--hero-text);
+font-weight: 900;
+font-Size: 44px;
+line-height: 1.36;
+letter-spacing: 6%;  
+text-Align: Center;
+} 
+
+
+
+.hero-button{
+    font-family: inherit;
+    color: var(--hero-text);
+    background-color: var(--accent-color);
+    font-weight: 700;   
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    color: var(--primary-text-color)
+    
+}
+.hero-button:active{
+    color:var(--secondary-text-color);
+}
+.hero-post{
+    background-color: var(--hero-becgr-color)
+    }
+
+
+
+
+
+/* one */
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.title-one{
+    font-weight: 700;    
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+
+.text{
+    color: var(--secondary-text-color) ;
+    font-size: 14px;
+    line-height: 1.71;
+
+
+}
+
+/* two */
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 16.66;
+    /* text-align: center; */
+}
+.title-two{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    }
+.text-two{
+    font-size: 16px;
+    line-height: 1.19;
+/* text-align: center; */
+}
+
+/* footer */
+.footer{
+    
+    background-color:var(--hero-becgr-color)}
+    
+
+
+      
+
+.logo-foot{
+    font-style: none;
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    Line height: 1.38;
+}
+.Logo-foot-part{
+    color: var(--hero-text);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-Size:26px;
+    Line-height:1.17;
+}
+.foot-links{
+    font-style: normal;
+    color: var(--hero-text);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.foot-links:hover,
+.foot-links:focus
+{
+    color:var(--accent-color) 
+}
+
+.foot-links-two{
+    
+    font-style: normal;
+    color: var(--foot-links-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.foot-links-two:hover,
+.foot-links-two:focus
+{
+    color:var(--accent-color) 
+}
+
+
+
+
+/* second list */
+
+
+.second-list-button{
+    font-family: inherit; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+
+}
+
+.second-list-button:hover, 
+.second-list-button:hover{
+    color: var(--hero-text);
+    background-color: var(--accent-color);
+}
+.second-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%; 
+}
+
+.second-text{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+}
