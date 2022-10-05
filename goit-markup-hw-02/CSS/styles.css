@@ -18,11 +18,12 @@
 
 
 .list{
-    list-style-type: normal;
+    list-style-type: none;
     font-style: normal;
+    
 }
 .link {
-    list-style-type: normal;
+    list-style-type: none;
     font-style: normal;
 }
 
@@ -58,7 +59,7 @@
     font-style: normal;
     font-weight: 700;
     font-Size:26px;
-    Line-height:1.19;
+    Line-height: 1.19;
     letter-spacing: 0.03em;
     
     }
@@ -72,14 +73,15 @@
     
     
     font-style: normal;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
    
-.site-nav-link a { 
-    color:var(--primary-text-color);
+.site-nav-link a{ 
+        text-decoration: none;
+        color:var(--primary-text-color);
     
-        font-style: normal;
+        font-style: none;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -95,10 +97,10 @@
 
 
 
-.auth-nav-link a{
+.auth-nav-link a {
    
     color:var(--secondary-text-color) ;
-
+     text-decoration: none;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -247,26 +249,25 @@ color: var(--hero-text);
     
 }
 .logo-foot-part{
-    color: var(--hero-text);
-
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    
+            color: var(--hero-text);
+            font-family: 'Raleway', sans-serif;
+            font-style: none;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+    
+        
        
 }
 .foot-links{
-    font-style: normal;
-    color: var(--hero-text);
-
-    
-        font-style: normal;
-        
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+            font-style: normal;
+            color: var(--hero-text);
+            font-style: normal;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
        
 }
 
